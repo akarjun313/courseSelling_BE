@@ -11,6 +11,8 @@ const port = 3050
 // middlewares 
 app.use(express.json())
 app.use(cookieParser())
+
+// route to 
 app.use('/api/v1/user', userRouter)
 app.use('/api/v1/instructor', instructorRouter)
 
